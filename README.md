@@ -97,6 +97,7 @@ plt.show()
 <img width="598" height="390" alt="image" src="https://github.com/user-attachments/assets/8a562595-1ec1-4566-9a68-4d921a18fcb2" />
 <img width="570" height="394" alt="image" src="https://github.com/user-attachments/assets/d6cd2213-911f-4e14-9f65-6da9e8207363" />
 <img width="608" height="405" alt="image" src="https://github.com/user-attachments/assets/95e36c61-4b67-4304-b098-088950378f36" />
+
 ```
 # STEP 6 - Data Visualization Using Displots
 
@@ -106,6 +107,7 @@ plt.show()
 sns.displot(data["Fare"], kde=True, height=4, aspect=1.5)
 plt.title("Displot - Fare Distribution")
 plt.show()
+
 ```
 <img width="603" height="414" alt="image" src="https://github.com/user-attachments/assets/87bd1812-46e5-45d1-a421-e2fed0f9e2e3" />
 <img width="630" height="414" alt="image" src="https://github.com/user-attachments/assets/b1d0af80-d5de-4139-8d88-043f5053cf52" />
@@ -118,6 +120,7 @@ print(pd.crosstab(data["SibSp"], data["Survived"]))
 
 print("\nCross Tabulation: Pclass vs Survived\n")
 print(pd.crosstab(data["Pclass"], data["Survived"]))
+
 ```
 <img width="384" height="346" alt="image" src="https://github.com/user-attachments/assets/9a226131-05c7-48d5-8772-68f96a07d789" />
 
@@ -129,6 +132,7 @@ correlation_matrix = data.select_dtypes(include=np.number).corr()
 sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm")
 plt.title("Correlation Heatmap - Titanic Dataset")
 plt.show()
+
 ```
 <img width="604" height="512" alt="image" src="https://github.com/user-attachments/assets/a8f5f3fe-8223-44ef-b0d4-5c5f0387000e" />
 
