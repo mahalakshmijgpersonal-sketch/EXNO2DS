@@ -85,12 +85,10 @@ plt.figure(figsize=(6,4))
 sns.countplot(x="Survived", data=data)
 plt.title("Countplot - Survival Distribution")
 plt.show()
-
 plt.figure(figsize=(6,4))
 sns.countplot(x="SibSp", data=data)
 plt.title("Countplot - Sibling/Spouse Distribution")
 plt.show()
-
 plt.figure(figsize=(6,4))
 sns.countplot(x="Pclass", data=data)
 plt.title("Countplot - Passenger Class Distribution")
@@ -105,13 +103,13 @@ plt.show()
 sns.displot(data["Age"], kde=True, height=4, aspect=1.5)
 plt.title("Displot - Age Distribution")
 plt.show()
-
 sns.displot(data["Fare"], kde=True, height=4, aspect=1.5)
 plt.title("Displot - Fare Distribution")
 plt.show()
 ```
 <img width="603" height="414" alt="image" src="https://github.com/user-attachments/assets/87bd1812-46e5-45d1-a421-e2fed0f9e2e3" />
 <img width="630" height="414" alt="image" src="https://github.com/user-attachments/assets/b1d0af80-d5de-4139-8d88-043f5053cf52" />
+
 ```
 # STEP 7 - Cross Tabulation
 
