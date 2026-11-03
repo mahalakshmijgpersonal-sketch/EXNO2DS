@@ -111,7 +111,6 @@ plt.title("Displot - Fare Distribution")
 plt.show()
 ```
 <img width="603" height="414" alt="image" src="https://github.com/user-attachments/assets/87bd1812-46e5-45d1-a421-e2fed0f9e2e3" />
-
 <img width="630" height="414" alt="image" src="https://github.com/user-attachments/assets/b1d0af80-d5de-4139-8d88-043f5053cf52" />
 ```
 # STEP 7 - Cross Tabulation
@@ -123,6 +122,7 @@ print("\nCross Tabulation: Pclass vs Survived\n")
 print(pd.crosstab(data["Pclass"], data["Survived"]))
 ```
 <img width="384" height="346" alt="image" src="https://github.com/user-attachments/assets/9a226131-05c7-48d5-8772-68f96a07d789" />
+
 ```
 # STEP 8 - Heatmap of Correlation Analysis
 
